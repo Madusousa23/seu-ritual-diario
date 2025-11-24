@@ -1,4 +1,5 @@
 import { Heart, Star, Users, Award } from "lucide-react";
+import salonImg from "@/assets/about-salon.jpg";
 
 const QuemSomos = () => {
   return (
@@ -17,8 +18,12 @@ const QuemSomos = () => {
         {/* Mission Section */}
         <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
           <div className="animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <div className="aspect-[4/3] bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl flex items-center justify-center">
-              <Heart className="text-primary" size={120} strokeWidth={1} />
+            <div className="aspect-[4/3] rounded-3xl overflow-hidden">
+              <img 
+                src={salonImg} 
+                alt="Ambiente sereno do salão com produtos naturais"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           <div className="animate-fade-up" style={{ animationDelay: "0.2s" }}>
