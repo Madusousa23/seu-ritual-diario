@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+✨ Seu Ritual Diário — Autocuidado em Primeiro Lugar
 
-## Project info
+Bem-vindo ao Seu Ritual Diário, um projeto desenvolvido com foco em UX, UI, minimalismo e a sensação de cuidado pessoal.
+O objetivo da plataforma é proporcionar uma experiência tranquila, organizada e funcional para clientes que desejam agendar serviços de estética de forma simples e eficiente.
 
-**URL**: https://lovable.dev/projects/73f225e8-4c8c-4feb-bcdf-eb8b1c1f3ebf
+🔗 Projeto online:
+👉 https://seu-ritual-diario.lovable.app/
 
-## How can I edit this code?
+🌿 Sobre o Projeto
 
-There are several ways of editing your application.
+O site foi criado com um visual clean, moderno e centrado no conceito de autocuidado.
+Aqui, o usuário pode navegar entre diferentes páginas que apresentam desde informações do salão até funcionalidades completas de agendamento integrado com banco de dados.
 
-**Use Lovable**
+📌 Páginas do Sistema
+🏠 Home
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/73f225e8-4c8c-4feb-bcdf-eb8b1c1f3ebf) and start prompting.
+Página inicial com sistema de login.
 
-Changes made via Lovable will be committed automatically to this repo.
+Usuário autenticado tem suas informações salvas para futuras visitas.
 
-**Use your preferred IDE**
+Experiência personalizada e persistente.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🧡 Quem Somos
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Apresentação da missão do salão.
 
-Follow these steps:
+Destaque ao cuidado com os clientes e à importância da autoestima.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Texto acolhedor e alinhado à proposta de autocuidado.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+💇 Trabalhos Oferecidos
 
-# Step 3: Install the necessary dependencies.
-npm i
+Galeria com fotos reais de serviços realizados.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Explicação detalhada de cada procedimento.
 
-**Edit a file directly in GitHub**
+Preços, produtos utilizados e informações essenciais.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Área com feedbacks de clientes.
 
-**Use GitHub Codespaces**
+☎️ Contato
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Endereço completo (+ informações sobre estacionamento).
 
-## What technologies are used for this project?
+Telefone do salão.
 
-This project is built with:
+Mapa integrado (Google Maps).
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Link direto para o WhatsApp para agendamentos e dúvidas.
 
-## How can I deploy this project?
+📅 Marque um Horário
 
-Simply open [Lovable](https://lovable.dev/projects/73f225e8-4c8c-4feb-bcdf-eb8b1c1f3ebf) and click on Share -> Publish.
+Um sistema completo de agendamento, incluindo:
 
-## Can I connect a custom domain to my Lovable project?
+Seleção de datas disponíveis.
 
-Yes, you can!
+Escolha do tipo de serviço.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Horário desejado.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Número de pessoas.
+
+Informações pessoais (contato e CPF para identificação).
+
+Sistema de alerta automático 1 dia antes do horário marcado, com mensagem de cuidado.
+
+Todos os dados são armazenados em um banco de dados e exibidos na página "Meus cuidados".
+
+🧾 Meus Cuidados
+
+Área exclusiva do cliente.
+
+Exibe todos os serviços agendados.
+
+Possibilidade de cancelar um agendamento, liberando automaticamente a data e horário.
+
+Informações sempre sincronizadas com o banco de dados.
+
+🧭 Fluxo de Design
+🎨 UI (User Interface)
+
+Layout minimalista
+
+Paleta clean e suave
+
+Arquitetura clara e organizada
+
+Elementos visuais pensados para transmitir calma e bem-estar
+
+🧠 UX (User Experience)
+
+Navegação simples e intuitiva
+
+Foco na jornada do usuário
+
+Funcionalidades diretas, sem ruído visual
+
+Experiência acolhedora do início ao fim
+
+🌐 Acesse o Projeto
+
+🔗 Link direto:
+https://seu-ritual-diario.lovable.app/
