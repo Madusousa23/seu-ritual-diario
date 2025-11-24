@@ -1,12 +1,21 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Heart, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
+import heroImage from "@/assets/hero-beauty.jpg";
 
 const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 via-background to-accent/5">
+      <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img 
+            src={heroImage} 
+            alt="Produtos de beleza elegantes em fundo neutro" 
+            className="w-full h-full object-cover opacity-40"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/60 to-background/80" />
+        </div>
         <div className="container mx-auto px-4 text-center z-10">
           <h1 className="font-serif text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-up">
             Seu Espaço de <span className="text-primary">Autocuidado</span>

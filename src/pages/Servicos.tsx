@@ -1,6 +1,10 @@
 import { Check, Star } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import hairImg from "@/assets/service-hair.jpg";
+import facialImg from "@/assets/service-facial.jpg";
+import manicureImg from "@/assets/service-manicure.jpg";
+import makeupImg from "@/assets/service-makeup.jpg";
 
 const Servicos = () => {
   const servicos = [
@@ -11,6 +15,7 @@ const Servicos = () => {
       duracao: "45 min",
       produtos: ["Shampoo Professional", "Condicionador Nutritivo", "Finalizador"],
       destaque: true,
+      imagem: hairImg,
     },
     {
       nome: "Coloração Completa",
@@ -19,6 +24,7 @@ const Servicos = () => {
       duracao: "2h 30min",
       produtos: ["Tintura Premium", "Protetor Capilar", "Máscara Hidratante"],
       destaque: true,
+      imagem: hairImg,
     },
     {
       nome: "Escova Progressiva",
@@ -35,6 +41,7 @@ const Servicos = () => {
       duracao: "1h 30min",
       produtos: ["Máscara Ultra Nutritiva", "Ampola de Reconstrução", "Óleo Finalizador"],
       destaque: false,
+      imagem: facialImg,
     },
     {
       nome: "Manicure & Pedicure",
@@ -43,6 +50,7 @@ const Servicos = () => {
       duracao: "1h",
       produtos: ["Esmaltes Premium", "Hidratante para Cutículas", "Base Fortalecedora"],
       destaque: false,
+      imagem: manicureImg,
     },
     {
       nome: "Maquiagem",
@@ -51,6 +59,7 @@ const Servicos = () => {
       duracao: "1h 30min",
       produtos: ["Make Premium", "Primers de Fixação", "Produtos Hipoalergênicos"],
       destaque: true,
+      imagem: makeupImg,
     },
   ];
 
@@ -93,6 +102,15 @@ const Servicos = () => {
               className="overflow-hidden hover:shadow-lg transition-all hover:-translate-y-1 animate-fade-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
+              {servico.imagem && (
+                <div className="h-48 overflow-hidden">
+                  <img 
+                    src={servico.imagem} 
+                    alt={servico.nome}
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              )}
               <CardContent className="p-6">
                 {servico.destaque && (
                   <Badge className="mb-3 bg-primary/10 text-primary hover:bg-primary/20">
