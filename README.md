@@ -1,4 +1,5 @@
 ✨ Seu Ritual Diário — Autocuidado em Primeiro Lugar
+site hospedado:  https://seu-ritual-diario.lovable.app
 
 Bem-vindo ao Seu Ritual Diário, um projeto desenvolvido com foco em UX, UI, minimalismo e a sensação de cuidado pessoal.
 O objetivo da plataforma é proporcionar uma experiência tranquila, organizada e funcional para clientes que desejam agendar serviços de estética de forma simples e eficiente.
